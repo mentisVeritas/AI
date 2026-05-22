@@ -1,0 +1,11 @@
+# Large datasets (>~5 MB) — Git LFS
+data/Keylogger_Detection.csv filter=lfs diff=lfs merge=lfs -text
+data/Online*.csv filter=lfs diff=lfs merge=lfs -text
+data/Warehouse_and_Retail_Sales.csv filter=lfs diff=lfs merge=lfs -text
+data/house_prices.csv filter=lfs diff=lfs merge=lfs -text
+
+# Archive (OULAD)
+archive/**/studentVle.csv filter=lfs diff=lfs merge=lfs -text
+
+# YOLO images — one zip, not thousands of files
+projects/chair_detection_yolo/data/dataset.zip filter=lfs diff=lfs merge=lfs -text

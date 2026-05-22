@@ -1,0 +1,539 @@
+﻿customer_id;age;gender;job;marital;education;housing;loan;month;deposit;duration;poutcome;y
+000125;56;M;broker;married;basic.4y;no;no;july; $1 200,00 ;261;nonexistent;yes
+000126;57;M;services;married;high.school;no;no;july; $890,00 ;149;nonexistent;yes
+000127;37;M;services;married;high.school;yes;no;july; $1 300,00 ;226;nonexistent;yes
+000128;40;M;admin.;married;basic.6y;no;no;july; $2 800,00 ;151;failure;yes
+000129;56;F;services;married;high.school;no;yes;july; $1 700,00 ;307;failure;yes
+000130;45;M;services;married;basic.9y;no;no;july; $1 200,00 ;198;nonexistent;yes
+000131;59;F;admin.;married;professional.course;no;no;july; $1 600,00 ;139;nonexistent;yes
+000132;41;M;blue-collar;married;unknown;no;no;july; $1 780,00 ;217;nonexistent;yes
+000133;24;M;technician;single;professional.course;yes;no;july; $5 200,00 ;380;nonexistent;yes
+000134;25;Male;services;single;high.school;yes;no;july; $6 200,00 ;50;failure;yes
+000135;41;F;blue-collar;married;unknown;no;no;july; $7 600,00 ;55;nonexistent;yes
+000136;25;F;services;single;high.school;yes;no;july; $1 200,00 ;222;nonexistent;yes
+000137;29;M;blue-collar;single;high.school;no;yes;july; $990,00 ;137;success;yes
+000138;57;F;broker;divorced;basic.4y;yes;no;july; $1 320,00 ;293;success;yes
+000139;35;M;blue-collar;married;basic.6y;yes;no;july; $2 800,00 ;146;success;yes
+000140;54;Female;retired;married;basic.9y;yes;yes;july; $4 750,00 ;174;nonexistent;yes
+000141;35;M;blue-collar;married;basic.6y;yes;no;july; $1 200,00 ;312;nonexistent;yes
+000142;46;M;blue-collar;married;basic.6y;yes;yes;july; $1 600,00 ;440;failure;yes
+000143;50;M;blue-collar;married;basic.9y;yes;yes;july; $1 790,00 ;353;failure;yes
+000144;39;F;management;single;basic.9y;no;no;july; $5 200,00 ;195;failure;yes
+000145;30;F;unemployed;married;high.school;no;no;july; $6 200,00 ;38;failure;yes
+000146;55;M;blue-collar;married;basic.4y;yes;no;july; $7 600,00 ;262;failure;yes
+000147;55;M;retired;single;high.school;yes;no;july; $200,00 ;342;failure;yes
+000148;41;M;technician;single;high.school;yes;no;july; $890,00 ;181;failure;yes
+000149;37;M;admin.;married;high.school;yes;no;july; $1 300,00 ;172;nonexistent;yes
+000150;35;M;technician;married;university.degree;no;yes;july; $800,00 ;99;nonexistent;yes
+000151;59;F;technician;married;unknown;yes;no;july; $1 700,00 ;93;nonexistent;yes
+000152;39;F;self-employed;married;basic.9y;no;no;july; $1 200,00 ;233;nonexistent;yes
+000153;54;M;technician;single;university.degree;no;no;july; $3 600,00 ;255;nonexistent;yes
+000154;55;M;unknown;married;university.degree;unknown;unknown;july; $1 780,00 ;362;failure;yes
+000155;46;M;admin.;married;unknown;no;no;july; $5 200,00 ;348;failure;yes
+000156;59;M;technician;married;unknown;yes;no;july; $8 200,00 ;386;failure;yes
+000157;49;F;blue-collar;married;unknown;no;no;july; $7 600,00 ;73;failure;yes
+000158;54;M;management;married;basic.4y;yes;no;july; $990,00 ;230;failure;yes
+000159;54;M;blue-collar;divorced;basic.4y;no;no;july; $1 320,00 ;208;failure;yes
+000160;55;Female;unknown;married;basic.4y;yes;no;july; $2 900,00 ;336;nonexistent;yes
+000161;34;M;services;married;high.school;no;no;August; $4 750,00 ;365;nonexistent;yes
+000162;52;F;technician;married;basic.9y;yes;no;August; $1 200,00 ;1666;nonexistent;yes
+000163;41;Male;admin.;married;university.degree;yes;no;August; $1 500,00 ;577;nonexistent;yes
+000164;56;Male;technician;married;basic.4y;yes;no;August; $790,00 ;137;nonexistent;yes
+000165;58;Male;management;unknown;university.degree;yes;no;August; $5 200,00 ;366;nonexistent;yes
+000166;32;F;entrepreneur;married;high.school;yes;no;August; $6 200,00 ;314;failure;yes
+000167;38;F;admin.;single;professional.course;no;no;August; $7 600,00 ;160;failure;yes
+000168;57;M;admin.;married;university.degree;no;yes;August; $200,00 ;212;failure;yes
+000169;44;F;admin.;married;university.degree;yes;no;August; $890,00 ;188;failure;yes
+000170;42;M;technician;single;professional.course;no;no;August; $1 300,00 ;22;failure;yes
+000171;57;F;admin.;married;university.degree;yes;yes;August; $800,00 ;616;failure;yes
+000172;40;Male;blue-collar;married;basic.9y;no;yes;August; $80 000,00 ;178;failure;yes
+000173;35;Male;admin.;married;university.degree;yes;no;August; $200,00 ;355;failure;yes
+000174;45;Male;blue-collar;married;basic.9y;yes;no;August; $3 600,00 ;225;failure;yes
+000175;54;F;admin.;married;high.school;no;no;September; $1 780,00 ;160;failure;yes
+000176;39;F;broker;married;basic.4y;no;yes;September; $5 000,00 ;266;failure;yes
+000177;60;M;admin.;married;high.school;no;no;September; $8 000,00 ;253;failure;yes
+000178;53;M;admin.;single;professional.course;no;no;September; $700,00 ;179;failure;yes
+000179;55;M;blue-collar;married;basic.4y;no;no;September; $5 200,00 ;269;nonexistent;yes
+000180;55;M;technician;married;professional.course;yes;no;September; $9 890,00 ;135;nonexistent;yes
+000181;50;M;management;married;university.degree;no;yes;September; $10 000,00 ;161;nonexistent;yes
+000182;45;F;services;married;high.school;yes;no;September; $12 800,00 ;787;nonexistent;yes
+000183;55;F;unemployed;married;professional.course;yes;yes;September; $1 700,00 ;145;nonexistent;yes
+000184;25;M;technician;single;university.degree;yes;no;September; $1 200,00 ;174;nonexistent;yes
+000185;47;F;entrepreneur;married;university.degree;no;no;September; $1 600,00 ;449;nonexistent;yes
+000186;51;M;blue-collar;married;basic.9y;yes;no;September; $1 780,00 ;812;nonexistent;yes
+000187;42;F;blue-collar;married;basic.6y;yes;no;September; $5 200,00 ;164;nonexistent;yes
+000188;42;M;blue-collar;married;basic.6y;no;no;September; $6 200,00 ;366;nonexistent;yes
+000189;48;M;admin.;married;high.school;no;no;September; $7 600,00 ;357;nonexistent;yes
+000190;37;M;admin.;married;university.degree;no;no;September; $1 200,00 ;232;nonexistent;yes
+000191;44;F;blue-collar;single;basic.9y;yes;no;September; $990,00 ;91;nonexistent;yes
+000192;33;F;admin.;married;unknown;yes;no;September; $1 320,00 ;273;nonexistent;yes
+000193;56;M;admin.;married;basic.9y;yes;no;September; $2 800,00 ;158;nonexistent;yes
+000194;44;M;blue-collar;single;basic.4y;yes;yes;September; $4 750,00 ;177;nonexistent;yes
+000195;41;Male;management;married;basic.6y;no;no;September; $1 200,00 ;200;nonexistent;yes
+000196;44;Male;management;divorced;university.degree;yes;no;Setember; $1 600,00 ;172;failure;yes
+000197;47;Male;admin.;married;university.degree;yes;no;September; $1 790,00 ;176;failure;yes
+000198;57;F;unknown;married;unknown;no;no;September; $5 200,00 ;211;failure;yes
+000199;37;F;admin.;married;university.degree;yes;no;September; $6 200,00 ;214;failure;yes
+000200;41;F;blue-collar;divorced;basic.4y;yes;no;September; $7 600,00 ;1575;failure;yes
+000201;55;M;technician;married;university.degree;no;no;September; $200,00 ;349;failure;yes
+000202;33;F;services;married;high.school;yes;no;September; $890,00 ;337;failure;yes
+000203;55;F;management;married;unknown;yes;no;September; $1 300,00 ;272;failure;yes
+000204;42;M;blue-collar;married;basic.9y;no;no;September; $800,00 ;208;failure;yes
+000205;50;M;blue-collar;married;basic.4y;yes;no;September; $1 700,00 ;193;failure;yes
+000206;51;M;blue-collar;married;basic.4y;unknown;unknown;September; $1 200,00 ;212;nonexistent;yes
+000207;38;M;admin.;married;high.school;no;no;September; $3 600,00 ;165;nonexistent;yes
+000208;49;M;entrepreneur;married;university.degree;yes;no;September; $1 780,00 ;1042;nonexistent;yes
+000209;38;F;technician;single;university.degree;no;yes;September; $5 200,00 ;20;nonexistent;yes
+000210;31;F;admin.;divorced;high.school;no;no;September; $8 200,00 ;246;nonexistent;yes
+000211;41;F;management;married;basic.6y;no;no;october; $7 600,00 ;529;nonexistent;yes
+000212;39;F;admin.;married;university.degree;yes;yes;october; $990,00 ;192;nonexistent;yes
+000213;49;M;technician;married;basic.9y;no;no;october; $1 320,00 ;1467;nonexistent;yes
+000214;34;F;admin.;married;high.school;yes;no;october; $2 900,00 ;188;nonexistent;yes
+000215;35;F;admin.;married;university.degree;yes;no;october; $4 750,00 ;180;nonexistent;yes
+000216;57;F;unknown;married;unknown;yes;no;october; $1 200,00 ;48;nonexistent;yes
+000217;60;F;admin.;married;unknown;no;yes;october; $1 500,00 ;213;nonexistent;yes
+000218;33;F;unemployed;married;basic.9y;no;no;october; $790,00 ;545;nonexistent;yes
+000219;42;M;blue-collar;married;basic.6y;no;yes;october; $15 200,00 ;583;nonexistent;yes
+000220;45;F;services;married;professional.course;yes;no;october; $16 200,00 ;221;nonexistent;yes
+000221;42;F;management;married;university.degree;no;no;october; $7 600,00 ;426;nonexistent;yes
+000222;53;F;admin.;divorced;university.degree;no;no;october; $200,00 ;287;nonexistent;yes
+000223;37;M;technician;single;professional.course;no;no;october; $890,00 ;197;nonexistent;yes
+000224;44;M;blue-collar;married;basic.6y;no;no;october; $11 300,00 ;257;nonexistent;yes
+000225;54;M;services;married;unknown;yes;no;october; $18 800,00 ;229;nonexistent;yes
+000226;49;M;blue-collar;married;basic.4y;no;no;october; $24 000,00 ;55;nonexistent;yes
+000227;54;F;services;married;unknown;no;no;october; $200,00 ;400;nonexistent;yes
+000228;52;F;admin.;divorced;university.degree;no;no;october; $3 600,00 ;197;nonexistent;yes
+000229;52;F;admin.;divorced;university.degree;no;no;october; $1 780,00 ;190;nonexistent;yes
+000230;43;M;services;single;high.school;no;no;october; $5 000,00 ;21;failure;yes
+000231;34;F;broker;married;basic.6y;yes;no;october; $8 000,00 ;300;failure;yes
+000232;35;F;admin.;married;high.school;yes;no;october; $700,00 ;123;failure;yes
+000233;42;M;entrepreneur;married;unknown;yes;no;october; $1 200,00 ;293;failure;yes
+000234;43;M;technician;married;unknown;yes;yes;october; $890,00 ;325;failure;yes
+000235;60;M;retired;divorced;university.degree;no;no;october; $1 300,00 ;514;failure;yes
+000236;58;M;unemployed;married;basic.4y;no;no;october; $2 800,00 ;849;failure;yes
+000237;35;M;services;divorced;high.school;yes;no;october; $1 700,00 ;194;failure;yes
+000238;55;F;blue-collar;married;basic.9y;yes;no;october; $71 200,00 ;212;failure;yes
+000239;37;F;management;married;university.degree;no;no;october; $1 600,00 ;337;failure;yes
+000240;36;F;blue-collar;married;high.school;no;no;october; $11 780,00 ;286;nonexistent;yes
+000241;52;F;admin.;divorced;university.degree;no;no;october; $5 200,00 ;247;nonexistent;yes
+000242;57;M;blue-collar;divorced;unknown;yes;no;october; $6 200,00 ;518;nonexistent;yes
+000243;56;F;admin.;married;unknown;yes;no;october; $7 600,00 ;364;nonexistent;yes
+000244;48;F;blue-collar;divorced;basic.4y;yes;no;october; $1 200,00 ;178;nonexistent;yes
+000245;40;F;blue-collar;married;high.school;yes;no;october; $990,00 ;98;nonexistent;yes
+000246;49;F;blue-collar;divorced;high.school;no;no;october; $1 320,00 ;439;nonexistent;yes
+000247;41;F;services;married;high.school;no;no;october; $2 800,00 ;139;nonexistent;yes
+000248;45;M;technician;married;high.school;yes;no;october; $4 750,00 ;79;nonexistent;yes
+000249;32;F;admin.;married;university.degree;yes;yes;october; $1 200,00 ;175;nonexistent;yes
+000250;42;F;admin.;married;university.degree;no;yes;october; $1 600,00 ;262;failure;yes
+000251;50;F;admin.;married;basic.6y;no;no;october; $1 790,00 ;61;failure;yes
+000252;31;F;technician;divorced;professional.course;yes;yes;october; $5 200,00 ;78;nonexistent;yes
+000253;56;M;retired;married;basic.4y;yes;no;october; $6 200,00 ;102;nonexistent;yes
+000254;41;M;technician;married;professional.course;yes;no;october; $7 600,00 ;579;nonexistent;yes
+000255;37;F;blue-collar;married;basic.6y;yes;yes;october; $200,00 ;143;nonexistent;yes
+000256;41;M;technician;married;professional.course;no;no;october; $890,00 ;677;nonexistent;yes
+000257;35;F;blue-collar;married;unknown;yes;no;october; $1 300,00 ;267;nonexistent;yes
+000258;37;M;blue-collar;married;basic.6y;yes;no;october; $800,00 ;345;nonexistent;yes
+000259;52;M;management;married;university.degree;no;no;october; $1 700,00 ;185;nonexistent;yes
+000260;39;M;management;divorced;university.degree;no;no;october; $1 200,00 ;207;nonexistent;yes
+000261;39;F;broker;married;basic.4y;no;no;october; $3 600,00 ;69;nonexistent;yes
+000262;56;F;blue-collar;married;basic.4y;no;no;october; $1 780,00 ;100;nonexistent;yes
+000263;34;M;services;married;high.school;yes;no;october; $5 200,00 ;125;nonexistent;yes
+000264;45;F;blue-collar;married;basic.9y;yes;no;october; $8 200,00 ;461;nonexistent;yes
+000265;43;M;unemployed;single;university.degree;yes;no;october; $7 600,00 ;240;nonexistent;yes
+000266;56;F;management;married;unknown;yes;no;october; $990,00 ;70;success;yes
+000267;39;M;management;married;university.degree;yes;no;october; $1 320,00 ;193;success;yes
+000268;53;M;blue-collar;married;basic.4y;yes;no;october; $2 900,00 ;136;success;yes
+000269;38;M;unknown;divorced;high.school;yes;no;october; $4 750,00 ;73;success;yes
+000270;42;F;blue-collar;married;basic.4y;yes;no;october; $1 200,00 ;528;failure;yes
+000271;42;F;blue-collar;married;basic.4y;no;no;october; $1 500,00 ;541;success;yes
+000272;35;M;admin.;single;high.school;yes;no;october; $790,00 ;338;success;yes
+000273;40;M;admin.;married;university.degree;yes;no;october; $5 200,00 ;163;success;yes
+000274;51;M;blue-collar;married;basic.4y;yes;no;october; $6 200,00 ;87;success;yes
+000275;60;M;blue-collar;married;basic.9y;no;no;october; $7 600,00 ;301;success;yes
+000276;56;M;entrepreneur;married;unknown;yes;no;october; $200,00 ;46;success;yes
+000277;39;F;services;divorced;high.school;yes;no;october; $890,00 ;52;success;yes
+000278;56;F;entrepreneur;married;unknown;no;no;october; $1 300,00 ;204;nonexistent;yes
+000279;40;M;blue-collar;married;unknown;yes;yes;october; $800,00 ;155;nonexistent;yes
+000280;36;M;blue-collar;married;basic.9y;yes;yes;october; $80 000,00 ;98;nonexistent;yes
+000281;51;M;blue-collar;married;unknown;yes;no;october; $200,00 ;71;nonexistent;yes
+000282;51;M;blue-collar;married;unknown;no;no;october; $3 600,00 ;243;nonexistent;yes
+000283;43;F;technician;single;professional.course;yes;no;october; $1 780,00 ;186;nonexistent;yes
+000284;59;M;services;married;high.school;no;no;october; $5 000,00 ;579;nonexistent;yes
+000285;24;M;management;single;university.degree;yes;no;october; $8 000,00 ;165;nonexistent;yes
+000286;37;F;blue-collar;single;basic.9y;yes;yes;october; $700,00 ;163;nonexistent;yes
+000287;40;M;blue-collar;married;basic.9y;no;no;october; $5 200,00 ;46;success;yes
+000288;42;F;blue-collar;married;basic.9y;no;no;october; $9 890,00 ;559;success;yes
+000289;39;M;services;divorced;high.school;no;no;october; $10 000,00 ;2033;success;yes
+000290;37;M;entrepreneur;married;basic.6y;no;no;october; $12 800,00 ;85;success;yes
+000291;38;M;services;married;high.school;yes;yes;october; $1 700,00 ;506;success;yes
+000292;56;F;admin.;divorced;unknown;no;no;october; $1 200,00 ;114;success;yes
+000293;40;F;blue-collar;married;unknown;no;no;october; $1 600,00 ;114;success;yes
+000294;54;M;management;divorced;university.degree;yes;no;october; $1 780,00 ;843;success;yes
+000295;43;F;blue-collar;married;high.school;no;yes;october; $5 200,00 ;181;success;yes
+000296;36;M;services;married;high.school;no;no;october; $6 200,00 ;427;success;yes
+000297;45;F;technician;married;university.degree;yes;yes;october; $7 600,00 ;292;nonexistent;yes
+000298;42;M;admin.;single;university.degree;no;no;october; $1 200,00 ;192;nonexistent;yes
+000299;43;M;services;married;high.school;no;no;october; $990,00 ;93;nonexistent;yes
+000300;46;M;management;married;basic.9y;no;no;october; $1 320,00 ;128;nonexistent;yes
+000301;44;F;services;married;high.school;yes;yes;october; $2 800,00 ;107;nonexistent;yes
+000302;51;F;admin.;single;basic.6y;no;no;october; $4 750,00 ;303;nonexistent;yes
+000303;28;M;services;married;high.school;yes;no;october; $1 200,00 ;81;nonexistent;yes
+000304;37;M;blue-collar;married;basic.9y;no;no;october; $1 600,00 ;270;nonexistent;yes
+000305;34;M;technician;married;high.school;no;no;october; $1 790,00 ;228;nonexistent;yes
+000306;46;M;blue-collar;married;basic.6y;yes;no;october; $5 200,00 ;240;nonexistent;yes
+000307;42;M;blue-collar;married;basic.9y;yes;yes;october; $6 200,00 ;673;nonexistent;yes
+000308;36;F;admin.;married;university.degree;yes;no;october; $7 600,00 ;233;nonexistent;yes
+000309;54;F;blue-collar;married;basic.4y;no;no;october; $200,00 ;102;nonexistent;yes
+000310;57;M;management;married;university.degree;no;no;october; $890,00 ;461;nonexistent;yes
+000311;51;F;technician;married;basic.6y;no;no;october; $1 300,00 ;250;nonexistent;yes
+000312;54;M;retired;married;high.school;no;no;october; $800,00 ;130;nonexistent;yes
+000313;49;F;blue-collar;married;basic.4y;no;no;october; $1 700,00 ;252;nonexistent;yes
+000314;34;M;admin.;married;university.degree;yes;no;october; $1 200,00 ;138;nonexistent;yes
+000315;41;M;technician;married;professional.course;no;no;october; $3 600,00 ;412;nonexistent;yes
+000316;38;M;blue-collar;single;basic.9y;yes;no;october; $1 780,00 ;179;nonexistent;yes
+000317;45;F;management;divorced;university.degree;no;no;october; $5 200,00 ;19;nonexistent;yes
+000318;42;F;technician;married;university.degree;no;no;october; $8 200,00 ;228;nonexistent;yes
+000319;34;M;blue-collar;single;basic.9y;yes;no;october; $7 600,00 ;55;success;yes
+000320;48;M;blue-collar;married;basic.4y;yes;no;october; $990,00 ;717;success;yes
+000321;37;M;admin.;married;high.school;yes;no;october; $1 320,00 ;313;success;yes
+000322;34;M;blue-collar;single;basic.9y;no;no;october; $2 900,00 ;289;success;yes
+000323;40;M;admin.;married;basic.9y;yes;no;october; $4 750,00 ;683;success;yes
+000324;43;F;blue-collar;married;basic.6y;yes;no;october; $1 200,00 ;1077;success;yes
+000325;33;F;services;married;high.school;no;no;october; $1 500,00 ;146;success;yes
+000326;32;F;services;single;basic.6y;no;no;october; $790,00 ;167;success;yes
+000327;39;M;blue-collar;married;high.school;yes;no;october; $15 200,00 ;356;success;yes
+000328;43;F;admin.;married;unknown;no;no;october; $16 200,00 ;277;success;yes
+000329;44;F;blue-collar;married;basic.9y;yes;no;october; $7 600,00 ;172;nonexistent;yes
+000330;35;M;student;single;university.degree;no;no;october; $200,00 ;218;nonexistent;yes
+000331;35;M;student;single;university.degree;yes;yes;october; $890,00 ;217;nonexistent;yes
+000332;35;M;unemployed;married;professional.course;no;no;october; $11 300,00 ;67;nonexistent;yes
+000333;36;M;services;single;basic.4y;no;no;october; $18 800,00 ;291;nonexistent;yes
+000334;35;M;student;single;university.degree;yes;no;october; $24 000,00 ;248;nonexistent;yes
+000335;36;F;student;single;basic.9y;yes;no;october; $200,00 ;256;success;yes
+000336;55;F;broker;divorced;university.degree;no;no;october; $3 600,00 ;286;success;yes
+000337;59;F;admin.;married;university.degree;no;no;october; $1 780,00 ;477;success;yes
+000338;57;F;retired;married;unknown;no;no;october; $5 000,00 ;611;success;yes
+000339;39;M;blue-collar;married;professional.course;yes;no;october; $8 000,00 ;471;success;yes
+000340;39;F;broker;married;basic.4y;yes;no;october; $700,00 ;381;success;yes
+000341;30;F;blue-collar;single;unknown;yes;no;october; $9 000,00 ;251;nonexistent;yes
+000342;30;F;blue-collar;single;unknown;yes;yes;october; $11 700,00 ;408;nonexistent;yes
+000343;50;F;broker;married;basic.4y;no;no;october; $5 200,00 ;287;nonexistent;yes
+000344;40;F;services;married;high.school;no;no;october; $9 890,00 ;322;nonexistent;yes
+000345;35;M;admin.;married;high.school;yes;no;october; $10 000,00 ;216;nonexistent;yes
+000346;43;F;technician;married;unknown;no;no;october; $12 800,00 ;366;nonexistent;yes
+000347;36;F;services;single;basic.6y;yes;no;october; $1 700,00 ;210;nonexistent;yes
+000349;40;M;technician;married;basic.9y;no;no;october; $1 600,00 ;168;nonexistent;yes
+000350;58;M;retired;married;university.degree;no;no;october; $1 780,00 ;132;nonexistent;yes
+000351;42;M;technician;married;university.degree;no;no;october; $5 200,00 ;64;nonexistent;yes
+000352;35;M;admin.;single;university.degree;no;no;october; $6 200,00 ;209;nonexistent;yes
+000353;43;F;retired;married;basic.4y;no;no;october; $7 600,00 ;410;nonexistent;yes
+000354;45;F;blue-collar;married;basic.4y;yes;yes;october; $1 200,00 ;177;nonexistent;yes
+000355;39;F;admin.;married;professional.course;yes;no;october; $990,00 ;580;success;yes
+000356;50;M;services;divorced;professional.course;yes;no;october; $1 320,00 ;165;success;yes
+000357;32;F;management;divorced;basic.4y;yes;no;october; $2 800,00 ;127;success;yes
+000358;39;F;admin.;married;high.school;no;no;october; $4 750,00 ;357;success;yes
+000359;52;M;self-employed;married;university.degree;no;no;october; $1 200,00 ;175;success;yes
+000360;44;M;admin.;married;professional.course;yes;no;october; $1 600,00 ;300;success;yes
+000361;56;M;blue-collar;married;basic.4y;no;no;october; $1 790,00 ;136;success;yes
+000362;48;M;admin.;married;high.school;no;no;october; $5 200,00 ;125;success;yes
+000363;33;M;services;married;high.school;no;yes;october; $6 200,00 ;189;success;yes
+000364;43;F;management;married;university.degree;no;yes;october; $7 600,00 ;213;success;yes
+000365;57;F;retired;married;high.school;no;no;october; $200,00 ;238;success;yes
+000366;36;F;technician;single;professional.course;no;no;october; $890,00 ;124;nonexistent;yes
+000367;34;F;management;married;university.degree;yes;no;october; $1 300,00 ;18;nonexistent;yes
+000368;34;M;services;single;basic.9y;no;no;october; $800,00 ;730;nonexistent;yes
+000369;30;F;technician;married;university.degree;no;no;october; $1 700,00 ;40;nonexistent;yes
+000370;33;F;services;divorced;unknown;no;no;october; $1 200,00 ;181;nonexistent;yes
+000371;32;F;technician;single;professional.course;no;no;october; $3 600,00 ;79;nonexistent;yes
+000372;36;F;technician;single;high.school;yes;no;october; $1 780,00 ;142;nonexistent;yes
+000373;36;F;blue-collar;single;high.school;no;yes;october; $5 200,00 ;389;nonexistent;yes
+000374;33;M;services;single;high.school;no;no;october; $8 200,00 ;702;nonexistent;yes
+000375;40;F;technician;divorced;professional.course;no;no;october; $7 600,00 ;151;nonexistent;yes
+000376;41;F;blue-collar;married;basic.4y;yes;no;october; $990,00 ;211;nonexistent;yes
+000377;51;F;services;married;basic.6y;yes;no;october; $1 320,00 ;117;nonexistent;yes
+000378;36;M;technician;married;professional.course;yes;no;october; $2 900,00 ;232;nonexistent;yes
+000379;28;M;services;married;unknown;no;no;october; $4 750,00 ;408;nonexistent;yes
+000380;53;M;services;married;high.school;yes;yes;october; $1 200,00 ;370;nonexistent;yes
+000381;58;M;blue-collar;married;basic.9y;yes;no;october; $1 500,00 ;179;nonexistent;yes
+000382;45;F;management;married;basic.9y;no;yes;october; $790,00 ;46;nonexistent;yes
+000383;43;M;technician;married;unknown;yes;no;october; $15 200,00 ;200;nonexistent;yes
+000384;33;F;admin.;married;high.school;no;yes;october; $16 200,00 ;50;nonexistent;yes
+000385;33;M;admin.;married;high.school;no;yes;october; $7 600,00 ;181;nonexistent;yes
+000386;27;M;blue-collar;single;basic.6y;unknown;unknown;october; $200,00 ;119;nonexistent;yes
+000387;42;M;technician;married;high.school;no;no;october; $890,00 ;361;nonexistent;yes
+000388;43;F;admin.;divorced;basic.9y;no;no;november; $11 300,00 ;73;nonexistent;yes
+000389;42;F;admin.;married;university.degree;no;no;november; $18 800,00 ;67;nonexistent;yes
+000390;27;M;blue-collar;single;basic.6y;no;no;november; $24 000,00 ;350;nonexistent;yes
+000391;34;F;self-employed;single;university.degree;yes;no;november; $200,00 ;150;nonexistent;yes
+000392;31;M;student;single;university.degree;no;no;november; $3 600,00 ;332;nonexistent;yes
+000393;54;F;management;divorced;university.degree;no;no;november; $1 780,00 ;611;nonexistent;yes
+000394;40;M;self-employed;married;basic.4y;no;no;november; $5 000,00 ;58;nonexistent;yes
+000395;52;M;unemployed;married;high.school;yes;no;november; $8 000,00 ;151;nonexistent;yes
+000396;47;M;management;divorced;university.degree;no;no;november; $700,00 ;89;nonexistent;yes
+000397;49;F;broker;married;basic.9y;no;no;november; $1 200,00 ;152;nonexistent;yes
+000398;32;F;admin.;single;high.school;no;no;november; $890,00 ;611;nonexistent;yes
+000399;49;M;broker;single;high.school;yes;yes;november; $1 300,00 ;110;nonexistent;yes
+000400;50;M;blue-collar;married;basic.9y;no;no;november; $2 800,00 ;463;nonexistent;yes
+000401;34;M;services;married;high.school;no;no;november; $1 700,00 ;962;nonexistent;yes
+000402;55;M;blue-collar;married;basic.4y;no;no;november; $71 200,00 ;102;nonexistent;yes
+000403;47;M;technician;single;basic.9y;no;no;november; $1 600,00 ;10;nonexistent;yes
+000404;51;F;retired;married;professional.course;no;no;november; $11 780,00 ;118;nonexistent;yes
+000405;47;F;blue-collar;married;basic.6y;no;no;november; $5 200,00 ;92;success;yes
+000406;56;M;technician;married;basic.4y;yes;no;november; $6 200,00 ;143;success;yes
+000407;53;M;admin.;married;basic.9y;no;no;november; $7 600,00 ;189;success;yes
+000408;36;M;blue-collar;married;basic.9y;yes;no;november; $1 200,00 ;75;success;yes
+000409;42;M;blue-collar;divorced;basic.9y;yes;no;november; $990,00 ;189;success;yes
+000410;44;F;blue-collar;divorced;basic.6y;no;no;november; $1 320,00 ;55;success;yes
+000411;39;M;broker;married;basic.9y;yes;no;november; $2 800,00 ;935;success;yes
+000412;37;M;admin.;single;high.school;yes;yes;november; $4 750,00 ;56;success;yes
+000413;60;F;blue-collar;married;unknown;yes;no;november; $1 200,00 ;5;success;yes
+000414;36;M;services;married;high.school;no;no;november; $1 600,00 ;225;success;yes
+000415;42;F;management;divorced;university.degree;yes;no;november; $1 790,00 ;125;success;yes
+000416;31;M;admin.;married;high.school;yes;yes;november; $5 200,00 ;286;nonexistent;yes
+000417;53;M;technician;divorced;professional.course;no;yes;november; $6 200,00 ;206;nonexistent;yes
+000418;45;M;blue-collar;married;basic.4y;yes;no;november; $7 600,00 ;164;nonexistent;yes
+000419;37;F;technician;single;professional.course;yes;no;november; $15 200,00 ;98;nonexistent;yes
+000420;47;F;self-employed;married;professional.course;no;no;november; $890,00 ;446;nonexistent;yes
+000421;49;M;blue-collar;divorced;high.school;no;yes;november; $1 300,00 ;742;nonexistent;yes
+000422;36;F;admin.;married;university.degree;yes;no;november; $31 800,00 ;120;nonexistent;yes
+000423;35;M;services;divorced;high.school;no;no;november; $1 700,00 ;122;nonexistent;yes
+000424;38;F;unknown;married;unknown;no;no;november; $1 200,00 ;362;nonexistent;yes
+000425;38;M;services;single;high.school;no;no;november; $3 600,00 ;357;nonexistent;yes
+000426;50;M;blue-collar;divorced;high.school;no;yes;november; $1 780,00 ;200;nonexistent;yes
+000427;59;M;retired;married;professional.course;no;no;november; $5 200,00 ;107;nonexistent;yes
+000428;43;F;unknown;married;unknown;yes;no;november; $8 200,00 ;267;success;yes
+000429;42;F;admin.;married;high.school;yes;no;november; $7 600,00 ;248;success;yes
+000430;40;M;admin.;married;basic.6y;yes;no;november; $990,00 ;215;success;yes
+000431;46;M;blue-collar;married;unknown;no;no;november; $1 320,00 ;209;success;yes
+000432;57;M;broker;divorced;basic.4y;yes;yes;november; $2 900,00 ;205;success;yes
+000433;42;M;admin.;married;university.degree;yes;no;november; $4 750,00 ;261;success;yes
+000434;41;M;blue-collar;married;basic.4y;yes;no;november; $1 200,00 ;83;nonexistent;yes
+000435;54;F;management;divorced;university.degree;yes;no;november; $1 500,00 ;106;nonexistent;yes
+000436;27;F;admin.;single;university.degree;no;no;november; $790,00 ;106;nonexistent;yes
+000437;36;M;admin.;married;high.school;no;no;november; $5 200,00 ;108;nonexistent;yes
+000438;58;F;blue-collar;married;professional.course;yes;no;november; $6 200,00 ;214;nonexistent;yes
+000439;40;M;management;married;university.degree;yes;no;november; $7 600,00 ;358;nonexistent;yes
+000440;34;F;admin.;single;basic.9y;no;no;november; $32 200,00 ;453;success;yes
+000441;33;M;admin.;divorced;high.school;no;no;november; $890,00 ;364;success;yes
+000442;56;M;retired;married;basic.6y;no;no;november; $1 300,00 ;136;success;yes
+000443;42;M;blue-collar;married;basic.9y;no;no;november; $800,00 ;173;success;yes
+000444;43;F;services;married;high.school;yes;no;november; $80 000,00 ;241;success;yes
+000445;54;F;management;single;basic.9y;yes;no;november; $200,00 ;224;success;yes
+000446;53;M;admin.;single;basic.6y;yes;yes;november; $3 600,00 ;148;success;yes
+000447;42;M;technician;single;unknown;no;no;november; $1 780,00 ;230;success;yes
+000448;40;M;services;married;basic.6y;no;no;november; $5 000,00 ;199;success;yes
+000449;54;M;technician;married;professional.course;yes;yes;november; $8 000,00 ;196;success;yes
+000450;40;M;broker;single;professional.course;no;no;november; $700,00 ;111;success;yes
+000451;26;F;admin.;single;university.degree;yes;no;november; $5 200,00 ;231;success;yes
+000452;33;F;admin.;married;high.school;no;no;november; $9 890,00 ;316;success;yes
+000453;35;F;blue-collar;married;basic.9y;no;no;november; $10 000,00 ;240;nonexistent;yes
+000454;36;M;admin.;married;high.school;no;no;november; $12 800,00 ;669;nonexistent;yes
+000455;29;F;services;single;high.school;yes;no;november; $1 700,00 ;425;nonexistent;yes
+000456;36;F;blue-collar;married;basic.9y;yes;no;november; $1 200,00 ;121;nonexistent;yes
+000457;35;M;management;married;high.school;yes;no;november; $1 600,00 ;174;nonexistent;yes
+000458;50;M;self-employed;single;university.degree;no;yes;november; $1 780,00 ;88;nonexistent;yes
+000459;46;M;services;married;high.school;yes;no;november; $5 200,00 ;313;nonexistent;yes
+000460;49;M;entrepreneur;married;high.school;yes;no;november; $6 200,00 ;135;nonexistent;yes
+000461;42;M;technician;single;professional.course;yes;no;november; $7 600,00 ;152;nonexistent;yes
+000462;36;F;blue-collar;single;high.school;yes;yes;november; $1 200,00 ;402;nonexistent;yes
+000463;55;F;blue-collar;married;basic.9y;yes;no;november; $990,00 ;221;nonexistent;yes
+000464;41;F;management;married;university.degree;no;no;november; $1 320,00 ;213;nonexistent;yes
+000465;57;F;management;married;professional.course;yes;no;november; $2 800,00 ;144;nonexistent;yes
+000466;32;M;services;single;high.school;yes;no;november; $4 750,00 ;158;nonexistent;yes
+000467;49;F;admin.;married;basic.9y;no;no;november; $1 200,00 ;220;nonexistent;yes
+000468;57;F;unknown;married;unknown;yes;no;november; $1 600,00 ;325;nonexistent;yes
+000469;58;F;blue-collar;divorced;basic.4y;yes;no;november; $1 790,00 ;254;nonexistent;yes
+000470;52;F;technician;married;high.school;yes;no;november; $5 200,00 ;503;nonexistent;yes
+000471;50;F;services;divorced;professional.course;no;no;november; $6 200,00 ;680;nonexistent;yes
+000472;41;M;blue-collar;single;basic.9y;yes;no;november; $7 600,00 ;421;success;yes
+000473;33;F;entrepreneur;married;university.degree;yes;no;november; $7 200,00 ;130;success;yes
+000474;57;F;blue-collar;married;basic.4y;no;no;november; $890,00 ;164;success;yes
+000475;48;F;blue-collar;married;basic.6y;no;no;november; $1 300,00 ;174;success;yes
+000476;55;M;technician;married;professional.course;no;no;november; $800,00 ;113;success;yes
+000477;38;M;management;married;university.degree;no;no;november; $1 700,00 ;195;success;yes
+000478;38;M;services;married;high.school;yes;no;november; $1 200,00 ;347;success;yes
+000479;53;M;admin.;married;university.degree;yes;no;november; $3 600,00 ;208;success;yes
+000480;43;F;unemployed;single;university.degree;no;no;november; $1 780,00 ;404;success;yes
+000481;36;F;blue-collar;single;high.school;no;no;november; $45 200,00 ;396;success;yes
+000482;32;F;blue-collar;married;basic.9y;no;no;november; $58 200,00 ;98;success;yes
+000483;33;M;services;married;basic.4y;no;no;november; $7 600,00 ;229;nonexistent;yes
+000484;58;F;entrepreneur;married;basic.4y;yes;no;november; $11 990,00 ;350;nonexistent;yes
+000485;40;F;unemployed;divorced;high.school;no;no;november; $11 320,00 ;88;nonexistent;yes
+000486;57;M;management;married;university.degree;yes;no;november; $2 900,00 ;379;nonexistent;yes
+000487;45;M;technician;married;high.school;yes;no;november; $14 750,00 ;168;nonexistent;yes
+000488;42;M;blue-collar;married;basic.4y;yes;no;november; $1 200,00 ;190;nonexistent;yes
+000489;46;M;admin.;married;university.degree;yes;no;november; $1 500,00 ;158;nonexistent;yes
+000490;36;M;technician;married;university.degree;no;no;november; $2 750,00 ;210;nonexistent;yes
+000491;41;F;self-employed;married;high.school;yes;no;november; $12 200,00 ;102;nonexistent;yes
+000492;57;F;admin.;divorced;basic.9y;no;no;november; $16 200,00 ;306;nonexistent;yes
+000493;49;F;blue-collar;married;basic.9y;yes;no;november; $17 600,00 ;64;nonexistent;yes
+000494;56;F;management;divorced;high.school;no;no;november; $1 200,00 ;218;success;yes
+000495;37;M;blue-collar;married;basic.9y;no;no;november; $1 890,00 ;77;success;yes
+000496;37;F;blue-collar;married;basic.9y;no;yes;november; $15 300,00 ;54;success;yes
+000497;46;F;admin.;single;high.school;yes;no;november; $18 800,00 ;344;success;yes
+000498;22;F;blue-collar;single;basic.9y;yes;no;november; $25 000,00 ;195;nonexistent;yes
+000499;43;F;services;married;high.school;no;no;november; $8 200,00 ;202;nonexistent;yes
+000500;49;F;blue-collar;married;unknown;no;no;november; $23 600,00 ;286;nonexistent;yes
+000501;41;M;technician;married;basic.6y;yes;no;november; $1 780,00 ;278;nonexistent;yes
+000502;38;F;admin.;single;university.degree;no;no;november; $15 000,00 ;189;nonexistent;yes
+000503;33;F;admin.;married;basic.9y;no;no;november; $28 000,00 ;83;failure;yes
+000504;49;F;admin.;married;university.degree;yes;yes;november; $1 700,00 ;18;failure;yes
+000505;30;F;blue-collar;single;unknown;no;no;november; $7 600,00 ;184;failure;yes
+000506;33;M;admin.;married;basic.9y;yes;no;november; $1 200,00 ;235;failure;yes
+000507;34;M;management;single;university.degree;no;no;november; $890,00 ;290;failure;yes
+000508;30;F;student;single;unknown;no;no;november; $1 300,00 ;133;failure;yes
+000509;59;M;management;married;basic.4y;yes;yes;november; $4 800,00 ;318;nonexistent;yes
+000510;59;F;management;married;basic.4y;unknown;unknown;november; $80 000,00 ;437;nonexistent;yes
+000511;41;M;self-employed;married;university.degree;no;no;november; $200,00 ;402;nonexistent;yes
+000512;48;M;broker;married;basic.6y;yes;yes;november; $3 600,00 ;501;nonexistent;yes
+000513;28;M;unknown;single;unknown;yes;yes;november; $1 780,00 ;1201;nonexistent;yes
+000514;44;F;services;married;high.school;yes;no;november; $5 000,00 ;1030;nonexistent;yes
+000515;59;F;retired;unknown;university.degree;no;no;november; $8 000,00 ;253;nonexistent;yes
+000516;50;M;management;married;high.school;no;no;november; $700,00 ;149;nonexistent;yes
+000517;35;F;admin.;married;university.degree;no;no;november; $5 200,00 ;144;nonexistent;yes
+000518;42;M;admin.;married;high.school;no;no;november; $9 890,00 ;69;nonexistent;yes
+000519;45;F;admin.;married;basic.9y;no;no;november; $10 000,00 ;243;nonexistent;yes
+000520;36;M;technician;married;professional.course;no;no;november; $12 800,00 ;769;nonexistent;yes
+000521;56;M;services;married;high.school;no;no;november; $1 700,00 ;135;nonexistent;yes
+000522;29;M;blue-collar;divorced;basic.4y;no;no;november; $1 200,00 ;231;nonexistent;yes
+000523;41;F;self-employed;married;university.degree;yes;yes;november; $1 600,00 ;442;nonexistent;yes
+000524;42;F;blue-collar;married;basic.9y;no;no;november; $1 780,00 ;199;nonexistent;yes
+000525;52;M;services;single;high.school;no;no;november; $500,00 ;455;nonexistent;yes
+000526;48;M;services;married;high.school;unknown;unknown;november; $6 200,00 ;152;nonexistent;yes
+000527;31;M;blue-collar;married;high.school;yes;no;november; $7 600,00 ;124;success;yes
+000528;43;M;unemployed;married;university.degree;yes;no;november; $100,00 ;424;success;yes
+000529;36;M;blue-collar;married;basic.4y;no;no;november; $990,00 ;43;success;yes
+000530;42;F;entrepreneur;married;university.degree;yes;no;november; $1 320,00 ;154;success;yes
+000531;52;F;services;divorced;basic.6y;no;no;november; $2 800,00 ;393;success;yes
+000532;39;M;admin.;married;high.school;yes;no;november; $4 750,00 ;203;success;yes
+000533;36;M;services;married;high.school;no;yes;november; $1 200,00 ;140;success;yes
+000534;42;M;blue-collar;married;basic.9y;yes;no;november; $1 600,00 ;326;success;yes
+000535;41;M;admin.;married;high.school;no;no;november; $1 790,00 ;483;success;yes
+000536;55;F;technician;married;basic.4y;no;yes;november; $5 200,00 ;259;success;yes
+000537;30;M;blue-collar;married;basic.9y;no;no;november; $6 200,00 ;227;success;yes
+000538;57;M;retired;unknown;basic.4y;no;no;november; $7 600,00 ;673;success;yes
+000539;45;F;entrepreneur;married;basic.4y;yes;no;november; $50,00 ;576;success;yes
+000540;51;M;blue-collar;married;basic.4y;yes;yes;november; $890,00 ;180;success;yes
+000541;39;F;self-employed;single;basic.9y;yes;yes;november; $1 300,00 ;90;nonexistent;yes
+000542;47;M;admin.;married;high.school;no;no;november; $800,00 ;505;nonexistent;yes
+000543;27;M;services;married;high.school;yes;no;november; $1 700,00 ;245;nonexistent;yes
+000544;34;M;technician;single;university.degree;yes;no;november; $1 200,00 ;186;success;yes
+000545;57;F;blue-collar;married;basic.4y;yes;no;november; $3 600,00 ;208;success;yes
+000546;43;F;entrepreneur;married;basic.4y;no;no;november; $1 780,00 ;623;success;yes
+000547;49;M;blue-collar;married;basic.4y;no;no;november; $45 200,00 ;180;nonexistent;yes
+000548;39;F;management;married;university.degree;no;no;november; $58 200,00 ;496;nonexistent;yes
+000549;38;M;blue-collar;married;basic.4y;yes;no;november; $7 600,00 ;118;nonexistent;yes
+000550;49;F;blue-collar;married;basic.9y;no;no;november; $11 990,00 ;102;nonexistent;yes
+000551;58;M;management;married;basic.6y;no;no;november; $11 320,00 ;342;failure;yes
+000552;43;M;technician;married;professional.course;yes;no;november; $2 900,00 ;225;failure;yes
+000553;50;M;unknown;married;unknown;yes;no;november; $14 750,00 ;185;failure;yes
+000554;31;F;services;married;high.school;no;no;november; $1 200,00 ;276;failure;yes
+000555;43;F;self-employed;divorced;university.degree;no;no;november; $11 500,00 ;87;failure;yes
+000556;43;M;self-employed;married;basic.9y;no;no;november; $1 790,00 ;744;failure;yes
+000557;30;M;self-employed;single;university.degree;yes;no;november; $12 200,00 ;262;failure;yes
+000558;27;M;services;single;professional.course;yes;yes;December; $16 200,00 ;271;failure;yes
+000559;51;M;services;married;unknown;no;no;December; $17 600,00 ;141;nonexistent;yes
+000560;37;M;technician;married;professional.course;yes;no;December; $51 200,00 ;198;nonexistent;yes
+000561;46;F;broker;married;basic.9y;yes;no;December; $1 890,00 ;150;nonexistent;yes
+000562;35;F;blue-collar;married;professional.course;no;no;December; $14 300,00 ;241;nonexistent;yes
+000563;47;M;admin.;divorced;university.degree;no;no;December; $18 800,00 ;196;nonexistent;yes
+000564;46;F;management;married;unknown;yes;no;December; $35 000,00 ;149;nonexistent;yes
+000565;40;M;technician;married;professional.course;no;yes;December; $200,00 ;264;nonexistent;yes
+000566;26;F;broker;married;university.degree;no;no;December; $23 600,00 ;246;nonexistent;yes
+000567;32;M;blue-collar;divorced;basic.9y;no;no;December; $1 780,00 ;309;failure;yes
+000568;45;M;management;married;university.degree;yes;no;December; $500,00 ;140;failure;yes
+000569;34;M;admin.;married;basic.9y;no;no;December; $28 000,00 ;175;failure;yes
+000570;47;F;blue-collar;married;unknown;no;no;December; $1 700,00 ;136;failure;yes
+000571;42;F;technician;married;professional.course;no;no;December; $1 780,00 ;1623;failure;yes
+000572;57;M;technician;married;basic.4y;no;yes;December; $5 000,00 ;50;failure;yes
+000573;57;M;technician;married;basic.4y;no;no;December; $8 000,00 ;101;nonexistent;yes
+000574;38;M;blue-collar;married;basic.4y;no;yes;December; $700,00 ;144;nonexistent;yes
+000575;57;M;technician;married;basic.4y;no;no;December; $1 200,00 ;238;nonexistent;yes
+000576;28;M;student;single;basic.9y;yes;no;December; $890,00 ;354;nonexistent;yes
+000577;60;F;management;married;university.degree;no;no;December; $1 300,00 ;451;success;yes
+000578;48;F;admin.;married;university.degree;yes;no;December; $2 800,00 ;159;success;yes
+000579;47;F;technician;married;professional.course;yes;no;December; $1 700,00 ;170;success;yes
+000580;40;M;admin.;married;high.school;no;no;December; $71 200,00 ;243;success;yes
+000581;51;F;management;married;professional.course;yes;no;December; $1 600,00 ;141;success;yes
+000582;48;F;unemployed;single;basic.4y;yes;no;December; $11 780,00 ;112;success;yes
+000583;54;M;broker;married;basic.4y;no;no;December; $5 200,00 ;262;success;yes
+000584;40;M;blue-collar;married;basic.6y;no;yes;December; $6 200,00 ;53;nonexistent;yes
+000585;44;M;admin.;single;basic.9y;no;no;December; $7 600,00 ;134;nonexistent;yes
+000586;42;M;technician;divorced;high.school;no;no;December; $1 200,00 ;204;nonexistent;yes
+000587;52;M;self-employed;married;university.degree;yes;no;December; $990,00 ;678;nonexistent;yes
+000588;31;F;blue-collar;single;basic.9y;yes;no;December; $1 320,00 ;182;nonexistent;yes
+000589;32;F;services;married;high.school;no;no;December; $2 800,00 ;162;nonexistent;yes
+000590;44;F;admin.;married;high.school;yes;yes;December; $4 750,00 ;177;nonexistent;yes
+000591;39;F;management;married;basic.6y;no;no;December; $1 200,00 ;27;nonexistent;yes
+000592;57;M;management;married;professional.course;yes;no;December; $1 600,00 ;699;failure;yes
+000593;52;F;admin.;married;basic.4y;yes;no;December; $1 790,00 ;358;failure;yes
+000594;42;F;management;married;university.degree;no;no;December; $5 200,00 ;1677;failure;yes
+000595;42;F;technician;single;professional.course;unknown;unknown;December; $6 200,00 ;529;nonexistent;yes
+000596;43;F;management;married;professional.course;yes;no;December; $7 600,00 ;310;nonexistent;yes
+000597;31;F;admin.;divorced;high.school;no;no;December; $15 200,00 ;47;nonexistent;yes
+000598;29;M;admin.;married;university.degree;yes;no;December; $890,00 ;379;nonexistent;yes
+000599;57;F;blue-collar;divorced;basic.4y;no;no;December; $1 300,00 ;30;nonexistent;yes
+000600;44;F;blue-collar;married;basic.9y;no;no;December; $31 800,00 ;472;success;yes
+000601;59;F;unknown;married;unknown;no;no;December; $1 700,00 ;113;success;yes
+000602;39;M;blue-collar;married;basic.4y;no;no;December; $1 200,00 ;114;success;yes
+000603;57;M;retired;married;university.degree;no;no;December; $3 600,00 ;116;success;yes
+000604;41;M;management;married;unknown;no;no;December; $1 780,00 ;448;nonexistent;yes
+000605;37;M;technician;single;high.school;no;yes;December; $5 200,00 ;264;nonexistent;yes
+000606;38;F;services;married;high.school;yes;no;December; $8 200,00 ;169;nonexistent;yes
+000607;42;F;retired;married;basic.4y;no;no;December; $7 600,00 ;145;nonexistent;yes
+000608;49;F;unknown;married;unknown;yes;no;December; $990,00 ;288;nonexistent;yes
+000609;54;M;management;married;basic.6y;yes;yes;December; $1 320,00 ;381;success;yes
+000610;36;F;admin.;married;university.degree;unknown;unknown;December; $2 900,00 ;176;success;yes
+000611;32;F;admin.;single;university.degree;no;no;December; $4 750,00 ;215;success;yes
+000612;35;M;technician;married;professional.course;yes;no;December; $1 200,00 ;278;success;yes
+000613;45;M;broker;married;professional.course;no;no;December; $1 500,00 ;188;nonexistent;yes
+000614;56;M;technician;married;unknown;yes;no;December; $790,00 ;174;nonexistent;yes
+000615;34;M;technician;married;university.degree;yes;no;December; $5 200,00 ;226;nonexistent;yes
+000616;41;M;unemployed;married;basic.9y;no;no;December; $6 200,00 ;111;nonexistent;yes
+000617;41;F;services;married;basic.9y;no;no;December; $7 600,00 ;157;nonexistent;yes
+000618;36;F;blue-collar;married;basic.9y;no;no;December; $32 200,00 ;46;nonexistent;yes
+000619;32;F;admin.;single;university.degree;unknown;unknown;December; $890,00 ;49;nonexistent;yes
+000620;31;F;services;married;high.school;unknown;unknown;December; $1 300,00 ;374;failure;yes
+000621;38;M;technician;married;professional.course;yes;no;December; $800,00 ;349;failure;yes
+000622;35;F;admin.;divorced;university.degree;yes;no;December; $80 000,00 ;325;failure;yes
+000623;53;F;admin.;married;professional.course;yes;no;December; $200,00 ;233;failure;yes
+000624;51;F;admin.;married;basic.6y;yes;no;December; $3 600,00 ;531;failure;yes
+000625;56;F;entrepreneur;married;university.degree;no;no;December; $1 780,00 ;153;nonexistent;yes
+000626;33;M;admin.;married;basic.9y;unknown;unknown;December; $5 000,00 ;80;nonexistent;yes
+000627;33;F;admin.;married;basic.9y;no;no;December; $8 000,00 ;198;nonexistent;yes
+000628;51;M;services;divorced;high.school;yes;no;December; $700,00 ;568;nonexistent;yes
+000629;39;F;services;married;high.school;yes;no;December; $5 200,00 ;918;nonexistent;yes
+000630;45;M;entrepreneur;married;university.degree;no;no;December; $9 890,00 ;82;success;yes
+000631;40;M;technician;single;university.degree;no;no;December; $10 000,00 ;198;success;yes
+000632;60;M;unknown;single;unknown;yes;no;December; $12 800,00 ;211;success;yes
+000633;33;F;technician;married;university.degree;yes;no;December; $1 700,00 ;120;success;yes
+000634;47;F;blue-collar;married;high.school;yes;no;December; $1 200,00 ;269;success;yes
+000635;48;M;blue-collar;married;basic.4y;no;no;December; $1 600,00 ;128;success;yes
+000636;43;M;entrepreneur;married;high.school;no;no;December; $1 780,00 ;166;success;yes
+000637;37;F;management;married;university.degree;yes;no;December; $5 200,00 ;211;success;yes
+000638;50;F;services;married;basic.9y;yes;yes;December; $6 200,00 ;369;success;yes
+000639;59;F;entrepreneur;married;high.school;yes;no;December; $7 600,00 ;91;nonexistent;yes
+000640;32;M;technician;married;unknown;yes;no;December; $1 200,00 ;267;nonexistent;yes
+000641;42;F;broker;single;basic.4y;yes;no;December; $9 990,00 ;198;nonexistent;yes
+000642;52;F;blue-collar;married;basic.4y;no;no;December; $1 320,00 ;371;nonexistent;yes
+000643;42;F;blue-collar;married;unknown;no;no;December; $2 800,00 ;288;nonexistent;yes
+000644;42;F;admin.;married;unknown;no;no;December; $14 750,00 ;221;nonexistent;yes
+000645;40;M;management;married;basic.9y;unknown;unknown;December; $1 200,00 ;427;success;yes
+000646;38;F;blue-collar;married;basic.9y;no;no;December; $1 600,00 ;310;nonexistent;yes
+000647;39;M;blue-collar;married;basic.6y;yes;no;December; $1 750,00 ;158;nonexistent;yes
+000648;39;F;blue-collar;married;basic.6y;no;no;December; $5 200,00 ;198;nonexistent;yes
+000649;38;M;admin.;married;high.school;no;no;December; $6 200,00 ;145;success;yes
+000650;47;M;admin.;single;unknown;yes;no;December; $7 600,00 ;247;nonexistent;yes
+000651;30;M;services;single;high.school;no;no;December; $7 200,00 ;102;nonexistent;yes
+000652;38;F;admin.;divorced;high.school;yes;yes;December; $7 890,00 ;179;nonexistent;yes
+000653;39;F;technician;divorced;university.degree;no;no;December; $1 300,00 ;73;nonexistent;yes
+000654;44;M;admin.;married;high.school;no;no;December; $2 800,00 ;263;nonexistent;yes
+000655;36;M;admin.;married;high.school;no;no;December; $1 700,00 ;342;success;yes
+000656;41;M;services;married;high.school;yes;yes;December; $41 200,00 ;41;nonexistent;yes
+000657;41;F;blue-collar;married;basic.6y;no;no;December; $3 600,00 ;13;nonexistent;yes
+000658;35;M;blue-collar;married;basic.9y;no;no;December; $1 780,00 ;79;success;yes
+000659;41;F;technician;married;high.school;no;no;December; $45 200,00 ;358;nonexistent;yes
+000660;36;M;services;married;high.school;no;no;December; $58 200,00 ;162;nonexistent;yes
+000661;35;M;admin.;single;high.school;yes;yes;December; $17 600,00 ;150;nonexistent;yes
+000662;33;M;blue-collar;single;basic.4y;no;no;December; $11 990,00 ;26;nonexistent;yes
+000663;38;Female;admin.;single;basic.6y;no;no;December; $11 320,00 ;250;nonexistent;yes

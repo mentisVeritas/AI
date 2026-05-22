@@ -1,34 +1,35 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-build/
-
-# Virtual Environment
 .venv/
 venv/
 ENV/
-env/
 
-# Jupyter Notebook
+# Jupyter / IDE
 .ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# IDE
 .idea/
 .vscode/
-
-# macOS
 .DS_Store
 
-# CatBoost
+# ML artifacts
+runs/
+**/runs/detect/
+*.pt
+*.pth
+*.onnx
 catboost_info/
+**/outputs/
 
-# Data files (if needed, uncomment specific patterns)
-Zentora/OULAD/studentVle.csv
-*.csv
-# *.npy
+# Separate repo (push only cnn-cast-defect-classification on GitHub)
+projects/cnn-cast-defect-classification/
+
+# Chair YOLO — unpack from LFS zip
+projects/chair_detection_yolo/data/images/
+projects/chair_detection_yolo/data/train/
+projects/chair_detection_yolo/data/val/
+projects/chair_detection_yolo/data/test/
+projects/chair_detection_yolo/data/labels/
+projects/chair_detection_yolo/.venv/
+
+# Docs
+*.docx
