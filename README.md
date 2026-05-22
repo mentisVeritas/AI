@@ -21,29 +21,16 @@ AI/
 | Folder | In this repo? | Notes |
 |--------|---------------|--------|
 | `projects/chair_detection_yolo/` | yes | YOLOv8, `dataset.zip` via LFS |
-| `projects/cnn-cast-defect-classification/` | **no** | nested independent repo — own `.git`, own GitHub |
+| `projects/cnn-cast-defect-classification @ …` | **submodule** | [separate repo](https://github.com/mentisVeritas/cnn-cast-defect-classification) |
 
-CNN details: [cnn-cast-defect-classification](https://github.com/mentisVeritas/cnn-cast-defect-classification)
-
-## Nested repository (CNN)
-
-`projects/cnn-cast-defect-classification/` is intentionally **not** part of this repo:
-
-- separate git history and `origin`
-- listed in `.gitignore` so parent never tracks its files
-- not a submodule — stays on disk inside the workspace for PyCharm
+On GitHub the `@` hash is the pinned submodule commit (like a dependency version).
 
 ```bash
-# Parent AI repo
-cd /path/to/AI
-git pull
-git lfs pull
+git clone --recurse-submodules git@github.com:mentisVeritas/AI.git
+# or: git submodule update --init
 
-# Nested CNN repo
 cd projects/cnn-cast-defect-classification
-git pull
-git lfs pull
-bash scripts/unpack_dataset.sh
+git lfs pull && bash scripts/unpack_dataset.sh
 ```
 
 ## Data (this repo)

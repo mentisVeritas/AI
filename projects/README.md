@@ -1,46 +1,38 @@
 # Projects
 
-## Architecture
+## On GitHub (this page)
 
-| Path | Git | Remote |
-|------|-----|--------|
-| `cnn-cast-defect-classification/` | **Separate repo** (`.git` inside folder) | `git@github.com:mentisVeritas/cnn-cast-defect-classification.git` |
-| `chair_detection_yolo/` | Part of parent **AI** repo | same as `AI/` |
+| Folder | Type |
+|--------|------|
+| `cnn-cast-defect-classification @ …` | **Git submodule** → [own repo](https://github.com/mentisVeritas/cnn-cast-defect-classification) |
+| `chair_detection_yolo/` | tracked in **AI** repo |
 
-`cnn-cast-defect-classification` is an **independent nested repository**:
+The `@ commit` link on GitHub means: parent repo pins a specific version of the nested project repo.
 
-- lives inside the workspace at `AI/projects/cnn-cast-defect-classification/`
-- has its own history, branches, and `git push`
-- is **ignored** by the parent AI repo (see root `.gitignore`)
-- this is **not** a git submodule and **not** a monorepo — just a local workspace layout
-
-```text
-AI/                          ← parent repo (learning + YOLO)
-└── projects/
-    ├── cnn-cast-defect-classification/   ← child repo (.git here)
-    └── chair_detection_yolo/             ← normal folder in parent
-```
-
-## Commands
-
-**CNN project** (run inside nested repo):
+## Clone
 
 ```bash
+# Parent only
+git clone git@github.com:mentisVeritas/AI.git
+
+# Parent + all submodules (CNN code + LFS data)
+git clone --recurse-submodules git@github.com:mentisVeritas/AI.git
+
+# Or after clone
+git submodule update --init --recursive
 cd projects/cnn-cast-defect-classification
-git status
-git lfs pull
-bash scripts/unpack_dataset.sh
+git lfs pull && bash scripts/unpack_dataset.sh
 ```
 
-**YOLO project** (parent repo):
+## Local workspace (PyCharm)
+
+- `cnn-cast-defect-classification/` stays at `projects/cnn-cast-defect-classification/`
+- own `.git`, own `git push` inside that folder
+- parent `AI` only stores the **commit pointer** (submodule), not project files
+
+## YOLO (in this repo)
 
 ```bash
-cd projects/chair_detection_yolo
+cd chair_detection_yolo
 unzip -q -o data/dataset.zip -d data
 ```
-
-## PyCharm / VS Code
-
-- Open `Learning/` or `AI/` as workspace — both repos visible.
-- For CNN: mark `projects/cnn-cast-defect-classification` as a separate Git root (PyCharm detects nested `.git` automatically).
-- Use a **separate Python interpreter** per project.
