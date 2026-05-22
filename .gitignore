@@ -20,10 +20,14 @@ runs/
 catboost_info/
 **/outputs/
 
-# Separate repo (push only cnn-cast-defect-classification on GitHub)
+# ---------------------------------------------------------------------------
+# Nested independent repository (NOT submodule, NOT monorepo merge)
+# cnn-cast-defect-classification has its own .git + origin — parent AI repo
+# must not track any files inside this directory.
+# ---------------------------------------------------------------------------
 projects/cnn-cast-defect-classification/
 
-# Chair YOLO — unpack from LFS zip
+# Chair YOLO — unpack from LFS zip (tracked in this repo)
 projects/chair_detection_yolo/data/images/
 projects/chair_detection_yolo/data/train/
 projects/chair_detection_yolo/data/val/

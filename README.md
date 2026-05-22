@@ -1,35 +1,57 @@
 # AI
 
-Personal ML repo: self-study, university coursework, portfolio projects.
+Main learning / workspace repository: study, university, archive, and in-repo projects.
+
+**GitHub:** [mentisVeritas/AI](https://github.com/mentisVeritas/AI)
 
 ## Structure
 
 ```
 AI/
-├── study/          # notebooks & exercises (numpy, EDA, ML basics, DL intro)
-├── university/     # homework, midterm, retake, y1_y2 assignments
-├── projects/       # portfolio (CNN, YOLO)
-├── archive/        # finished / one-off work (team project, OULAD, case studies)
-├── data/raw/       # shared CSVs for study notebooks (not in git if large)
-└── shared/         # reusable code (add when used by 2+ projects)
+├── study/              # self-study notebooks (numpy, EDA, ML, DL)
+├── university/         # coursework (homework, midterm, retake)
+├── projects/           # see projects/README.md
+├── archive/            # finished one-off work
+├── data/               # shared CSVs for study (large → Git LFS)
+└── shared/             # reusable code (when used by 2+ projects)
 ```
 
 ## Projects
 
-| Folder | Description |
-|--------|-------------|
-| `projects/cast_defect_cnn` | Cast defect classification (CNN + Streamlit) |
-| `projects/chair_detection_yolo` | Chair detection (YOLOv8) |
+| Folder | In this repo? | Notes |
+|--------|---------------|--------|
+| `projects/chair_detection_yolo/` | yes | YOLOv8, `dataset.zip` via LFS |
+| `projects/cnn-cast-defect-classification/` | **no** | nested independent repo — own `.git`, own GitHub |
 
-See each project's `README.md` for train/infer commands.
+CNN details: [cnn-cast-defect-classification](https://github.com/mentisVeritas/cnn-cast-defect-classification)
 
-## Data
+## Nested repository (CNN)
 
-- **Study notebooks** → `../../data/raw/<file>.csv`
-- **Project data** → inside `projects/<name>/data/`
-- **University** → CSV next to notebook (do not move before submission)
+`projects/cnn-cast-defect-classification/` is intentionally **not** part of this repo:
 
-Large CSVs and YOLO `dataset.zip` use **Git LFS**. CNN project: [separate repo](https://github.com/mentisVeritas/cnn-cast-defect-classification).
+- separate git history and `origin`
+- listed in `.gitignore` so parent never tracks its files
+- not a submodule — stays on disk inside the workspace for PyCharm
+
+```bash
+# Parent AI repo
+cd /path/to/AI
+git pull
+git lfs pull
+
+# Nested CNN repo
+cd projects/cnn-cast-defect-classification
+git pull
+git lfs pull
+bash scripts/unpack_dataset.sh
+```
+
+## Data (this repo)
+
+| Size | Storage |
+|------|---------|
+| Large CSVs, `studentVle.csv`, YOLO `dataset.zip` | Git LFS |
+| Small CSVs (`Mall_Customers`, `Clean_SuperStore`, …) | regular git |
 
 ```bash
 git lfs install && git lfs pull
@@ -38,5 +60,6 @@ unzip -q -o projects/chair_detection_yolo/data/dataset.zip -d projects/chair_det
 
 ## PyCharm
 
-- Open `Learning/` as workspace; git root is `AI/`.
-- Use a separate interpreter per project under `projects/`.
+- Workspace root: `Learning/` (all courses) or `AI/` (this repo only).
+- Two Git roots: `AI/` + `projects/cnn-cast-defect-classification/`.
+- Separate interpreter per project.
